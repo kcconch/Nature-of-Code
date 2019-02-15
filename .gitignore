@@ -9,7 +9,9 @@
 *.sln
 *.vcx*
 *.workspace*
+*.make
 config.make
+addons.make
 Makefile
 *.xcodeproj
 *.vcxproj
