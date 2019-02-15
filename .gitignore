@@ -1,0 +1,43 @@
+
+## openFrameworks gitignore  ##
+## that skips project files  ##
+## for xcode & visual studio ##
+
+## FILETYPES ##
+###############
+*.cbp
+*.sln
+*.vcx*
+*.workspace*
+config.make
+Makefile
+*.xcodeproj
+*.vcxproj
+*.plist
+*.xcconfig
+*.suo
+
+*.opensdf
+*.sdf
+*.suo
+*.ipch
+
+*.depend
+*.layout
+*.mode*v3
+*.pbxuser
+*.app*
+*.DS_*
+*.rc
+*.xcworkspacedata
+xcuserdata/
+project.xcworkspace
+
+## FOLDERS ##
+#############
+.vs/
+.svn/
+obj/
+bin/
+build/
+!data/
