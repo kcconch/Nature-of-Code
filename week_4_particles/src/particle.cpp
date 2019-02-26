@@ -23,6 +23,7 @@ void particle::update() {
 }
 
 void particle::display() {
+	ofSetColor(255, 255, 255, lifespan*2.5);
     img.draw(location);
 }
 
